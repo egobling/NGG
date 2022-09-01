@@ -7,5 +7,5 @@ public:
 	Game();
 	
 	//function
-	Run();
+	void Run();
 };
