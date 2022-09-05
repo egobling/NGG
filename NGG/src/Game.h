@@ -25,7 +25,16 @@ int main();
 			cout << "too hight LOL\n\n";
 		else if (guess < num)
 			cout << "too low bro\n\n";
+
+
+		else
+			cout << "\n  yay! you Guessed right " << tries << "guess!\n";
+
+		while (Guess != num);
+		
+
 	}
+	return 0;
 
 }
 
