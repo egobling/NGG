@@ -2,9 +2,12 @@
 #include<string>
 #include<iostream>
 
-class MyClass{
+class Game{
 public:
 
+	Game();
+
+	void Run();
 
 };
 
