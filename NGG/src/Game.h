@@ -5,18 +5,20 @@
 
 using namespace std;
 
+class Game {
 
 
-int main();
-{
-	int num, guess, tires = 0;
-	srand(time(0));	
-	num = rand() % 100 + 1;
-	cout << "THE NNG\n\n";
 
-
-	do
+	int main ();
 	{
+		int num, guess, tires = 0;
+		srand(time(0));	
+		num = rand() % 100 + 1;
+		cout << "THE NNG\n\n";
+
+
+		do
+		{
 		cout << " Guess a nuber:";
 		cin >> guess;
 		tries++;
@@ -33,8 +35,9 @@ int main();
 		while (Guess != num);
 		
 
-	}
-	return 0;
+		}
+		return 0;
 
-}
+	}
+};
 
