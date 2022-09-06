@@ -34,7 +34,7 @@ void Game::Run()
 
 
 		else
-			cout << "\n  yay! you Guessed right " << tries << "guess!\n";
+			cout << "\n  yay! you Guessed right " << tries << ":attempts!\n";
 
 	} while (guess != num);
 
